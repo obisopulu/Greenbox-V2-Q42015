@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+	{
+		font-weight:bold;		
+		background-color:#EEE;
+		font-size:13px;
+		color:#999;
+		padding:0px;
+		margin:0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-family:myFirstFont;
+		cursor:default;
+	}
+@font-face{
+	font-family:myFirstFont;
+	src:url(res/segoe.ttf);
+}
+
+a:link,a:visited
+{
+display: table;
+font-weight:bold;
+color:#CCC;
+width:20px;
+padding:4px;
+text-decoration:none;
+}
+a:hover,a:active
+{
+	text-shadow:rgb(0,0,0);
+	background-color:#999;
+	color:rgba(255,255,255,1);
+}
+
+
+input.new
+	{
+	vertical-align:central;
+	border: thin #AAA;
+	text-align:start;
+	color:#FFF;
+	background-color:#CCC;
+	width:180px;
+	padding:5px;
+	height:20px;}
+a.link
+	{
+	vertical-align:central;
+	border: thin #AAA;
+	color:#aaa;
+	padding:5px 10px 10px;
+	cursor:pointer;}
+a.link:hover
+	{
+	vertical-align:central;
+	background-color:#CCC;
+	border: thin #AAA;
+	color:#FFF;
+	padding:5px 10px 10px;
+	cursor:pointer;
+	}
+
+#toppad
+	{padding-top:30px;
+	font-size:100px;
+	color:#1F7044;
+	}
+#cubes4
+	{
+	/*	text-shadow:1px 1px 1px #000;*/
+	text-emphasis:circle;
+		background-color:#EEE;
+		border:1px solid black;
+		filter:alpha(opacity=90);
+		opacity:0.9;
+  }
+#cubes45
+	{
+		padding:20px;
+		background-color:#DDD;
+		-moz-box-shadow:  0px 1px 2px #ddd; /* Firefox */
+		-webkit-box-shadow: 0px 1px 2px #ddd; /* Safari and Chrome */
+	}
+#cubes450
+	{
+		padding:0px 2px 5px;
+		background-color:#DDD;
+		-moz-box-shadow:  0px 1px 2px #ddd; /* Firefox */
+		-webkit-box-shadow: 0px 1px 2px #ddd; /* Safari and Chrome */
+	}
+
+	}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+	display:table-cell;
+}
